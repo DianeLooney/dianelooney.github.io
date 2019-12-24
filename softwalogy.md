@@ -9,7 +9,7 @@ posts:
   tags:
   - learn programming languages
 - title: "Functional Core, Imperative Shell"
-  description: Video livecode tool. Written by me. Come write more shaders for me!
+  description: A software pattern I enjoy. Good content on the rest of the website.
   url: https://www.destroyallsoftware.com/screencasts/catalog/functional-core-imperative-shell
   tags:
   - destroy all software
