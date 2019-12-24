@@ -133,7 +133,6 @@ body.light {
 
   @include media-query($on-palm) {
     background-color: $l-background-color;
-    border: 1px solid $l-grey-color-light;
 
     .menu-icon > svg path {
       fill: $l-grey-color-dark;
@@ -244,7 +243,6 @@ body.dark {
 
   @include media-query($on-palm) {
     background-color: $d-background-color;
-    border: 1px solid $d-grey-color-light;
 
     .menu-icon > svg path {
       fill: $d-grey-color-dark;
