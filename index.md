@@ -10,6 +10,6 @@ permalink: /
 
 she/her
 
-Queer trans-woman, currently based in NYC. I arrange bits into aesthetically pleasing patterns. I like to do so under time constraints in front of audiences. I frequent the livecode.nyc meetup and currently work at a startup.
+Queer trans-woman, currently based in NYC. I arrange bits into aesthetically pleasing patterns. I like to do so under time constraints in front of audiences. I frequent the livecode.nyc meetup and currently work at a startup as a software engineer.
 
 Email me: me@dianelooney.com.
