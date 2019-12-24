@@ -4,7 +4,7 @@ title: diane.af
 permalink: /
 ---
 
-<img src="https://diane-af.s3.us-east-2.amazonaws.com/selfie.jpg" alt="Selfie of Diane" style="width: 250px; float: left; margin: 10px; border-radius: 10px;">
+<img src="https://diane-af.s3.us-east-2.amazonaws.com/selfie.jpg" alt="Selfie of Diane" style="width: 275px; float: left; margin: 10px; border-radius: 10px;">
 
 ## Diane Looney
 
