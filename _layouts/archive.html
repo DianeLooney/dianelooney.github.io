@@ -1,0 +1,31 @@
+---
+layout: page
+---
+
+
+{% for post in page.posts %}
+
+<div class="post">
+  <div class="postDate">
+    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+      {{ post.date | date: "%b %-d, %Y" }}
+    </time>
+  </div>
+  <br>
+  <div class="postTitle">
+    <a class="postLink" href="{{post.url}}">{{post.title}}</a>
+  </div>
+  <div class="postTags">
+    {% for tag in post.tags %}
+    <span class="postTag">{{ tag }}</span>
+    {% if forloop.last == false %}
+    <span>&middot;</span>
+    {% endif %}
+    {% endfor %}
+  </div>
+  <div class="postExt">
+    {{ post.description | markdownify }}
+  </div>
+</div>
+
+{% endfor %}
