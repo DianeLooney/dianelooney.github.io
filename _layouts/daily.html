@@ -1,24 +1,21 @@
 ---
 layout: default
 ---
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <center>
       <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}"
           itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
-      {% if page.author %}
-      <div class="">
-        <center>
-          <p><strong><span class="authorKeyword">Author</span><span class="small-site-title">
-                <h2 style="letter-spacing: 3px !important;
-       text-transform: uppercase !important;">{{page.author}}</h2>
-              </span></strong></p>
-        </center>
-
-      </div>
-      {% endif %}
     </center>
   </header>
+
+  <div class="post-demo">
+    <canvas id="{{ page.name }}"></canvas>
+    <script type="text/javascript">
+      {% include_relative {{ page.name }}.js %}
+    </script>
+  </div>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}

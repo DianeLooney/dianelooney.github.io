@@ -248,6 +248,11 @@ pre {
     }
 }
 
+.post-demo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .post {
   font-family: "Source Sans Pro";
   font-size: 18px;
