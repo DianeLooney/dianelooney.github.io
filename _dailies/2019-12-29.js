@@ -51,6 +51,7 @@ const drawCircleish = r => {
 }
 const noises = Array.from({ length: 12 }, (_, k) => ({ color: sampleColor(), noise: whiteNoise(12), r: 200 - k * 18 }));
 const draw = () => {
+  ctx.clearRect(0, 0, 500, 500);
   noises.forEach(({ color, noise, r }, i) => {
     const time = (new Date()).getTime() / 1000
     r += 9 * Math.sin(time + i);
