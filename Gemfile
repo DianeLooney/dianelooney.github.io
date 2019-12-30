@@ -2,6 +2,4 @@
 
 source "https://rubygems.org"
 
-gem 'jekyll'
-gem 'jekyll-paginate'
-gem 'eventmachine', :git => 'git://github.com/eventmachine/eventmachine.git', :branch => 'master'
+gem 'github-pages'

@@ -10,7 +10,7 @@ title: diane.af
 email: diane@dianelooney.com
 description: Be gay, do crime.
 baseurl: ""
-url: "//diane.af"
+url: "https://diane.af"
 github_username: dianelooney
 paginate: 5
 theme-dark: true #Set to true to change to dark website theme
