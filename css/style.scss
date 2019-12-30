@@ -509,6 +509,15 @@ pre {
     margin-bottom: $spacing-unit;
   }
 }
+.daily-title {
+  color: $d-pink;
+  text-align: center;
+  font-family: "PT Sans";
+  font-weight: 900;
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
+}
 .post-meta {
   font-size: $small-font-size;
   text-transform: uppercase;

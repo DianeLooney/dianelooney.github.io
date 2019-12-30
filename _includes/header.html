@@ -8,7 +8,7 @@
 </div>
 <div class="wrapper">
   <div class="trigger site-navigation">
-    {% assign actual-pages = site.pages | where_exp: "post", "post.title" %}
+    {% assign actual-pages = site.pages | where_exp: "post", "post.title" | sort: "navOrder" %}
     {% for sitePage in actual-pages %}
     {% if forloop.first == false %}<span class="exclamationMark">/</span>{% endif %}
     <a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>

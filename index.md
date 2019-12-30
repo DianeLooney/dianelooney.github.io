@@ -1,6 +1,7 @@
 ---
 layout: post
 title: diane.af
+navOrder: 0
 permalink: /
 ---
 

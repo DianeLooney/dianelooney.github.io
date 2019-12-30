@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: Softwalogy
+navOrder: 3
 permalink: /softwalogy/
 posts:
 - title: "exercism.io"

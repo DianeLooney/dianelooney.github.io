@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: Live Code
+navOrder: 2
 permalink: /livecode/
 posts:
 - title: livecode.nyc
