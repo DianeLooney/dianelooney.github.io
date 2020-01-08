@@ -14,9 +14,6 @@ url: "https://diane.af"
 github_username: dianelooney
 paginate: 5
 theme-dark: true #Set to true to change to dark website theme
-collections:
-  dailies:
-    output: true
 
 plugins: [jekyll-paginate, kramdown]
 # Build settings
